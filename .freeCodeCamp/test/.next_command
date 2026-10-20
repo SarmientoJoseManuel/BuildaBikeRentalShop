@@ -11,3 +11,9 @@
 ./bike-shop.sh
 1
 ./bike-shop.sh
+exit
+git init
+git remote add origin https://github.com/SarmientoJoseManuel/BuildaBikeRentalShop.git
+git add .
+pg_dump --username=freecodecamp --dbname=bikes > bikes.sql
+git add .
